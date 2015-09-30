@@ -1,0 +1,10 @@
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\UNIEntity.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\UNIEntity.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\EntityFramework.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\EntityFramework.xml
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\obj\Debug\UNIEntity.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\obj\Debug\UNIEntity.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\UNIEntity.dll.config
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\EntityFramework.SqlServer.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\bin\Debug\EntityFramework.SqlServer.xml
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIEntity\obj\Debug\UNIEntity.csprojResolveAssemblyReference.cache
