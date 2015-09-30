@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GRN" Class="UniGRNDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=AST007-PC\SQLEXPRESS;Initial Catalog=GRN;User ID=sa" SettingsObjectName="GRNSoft.Properties.Settings" SettingsPropertyName="GRNConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GRNDetail" Member="GRNDetails">
+    <Type Name="GRNDetail">
+      <Column Name="GRNNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GRNDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Supplier" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="ChallanNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ChallanDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PONo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PODate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="VehicalNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OctroiReceiptNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReasonForRejection" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="GRNDetail_GRNItemDetail" Member="GRNItemDetails" ThisKey="GRNNo" OtherKey="GRNNo" Type="GRNItemDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRNItemDetail" Member="GRNItemDetails">
+    <Type Name="GRNItemDetail">
+      <Column Name="GRNItemID" AutoSync="Never" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ItemCode" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Challan" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ChallanUnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Actual" Type="System.Decimal" DbType="Decimal(18,3) NOT NULL" CanBeNull="false" />
+      <Column Name="ActualUnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Accepted" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GRNNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="GRNDetail_GRNItemDetail" Member="GRNDetail" ThisKey="GRNNo" OtherKey="GRNNo" Type="GRNDetail" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

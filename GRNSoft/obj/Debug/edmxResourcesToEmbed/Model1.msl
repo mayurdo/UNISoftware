@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UNIRecruitmentModelStoreContainer" CdmEntityContainer="UNIRecruitmentEntities">
+    <EntitySetMapping Name="CandidateDetails">
+      <EntityTypeMapping TypeName="UNIRecruitmentModel.CandidateDetail">
+        <MappingFragment StoreEntitySet="CandidateDetail">
+          <ScalarProperty Name="SrNo" ColumnName="SrNo" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="ProcessedDate" ColumnName="ProcessedDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="CurrentLocation" ColumnName="CurrentLocation" />
+          <ScalarProperty Name="PreferedLocation" ColumnName="PreferedLocation" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="LandLineNo" ColumnName="LandLineNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="AdditionalQualification" ColumnName="AdditionalQualification" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="ExpSlap" ColumnName="ExpSlap" />
+          <ScalarProperty Name="JobTitle" ColumnName="JobTitle" />
+          <ScalarProperty Name="CurrentIndustry" ColumnName="CurrentIndustry" />
+          <ScalarProperty Name="PreferredIndustry" ColumnName="PreferredIndustry" />
+          <ScalarProperty Name="NoticePeriod" ColumnName="NoticePeriod" />
+          <ScalarProperty Name="CurrentCTC" ColumnName="CurrentCTC" />
+          <ScalarProperty Name="ExpectedCTC" ColumnName="ExpectedCTC" />
+          <ScalarProperty Name="NoOfCalls" ColumnName="NoOfCalls" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CVPath" ColumnName="CVPath" />
+          <ScalarProperty Name="Placed" ColumnName="Placed" />
+          <ScalarProperty Name="Registered" ColumnName="Registered" />
+          <ScalarProperty Name="MarritalStatus" ColumnName="MarritalStatus" />
+          <ScalarProperty Name="ExecutiveName" ColumnName="ExecutiveName" />
+          <ScalarProperty Name="CallLatter1" ColumnName="CallLatter1" />
+          <ScalarProperty Name="CallLatter2" ColumnName="CallLatter2" />
+          <ScalarProperty Name="CallLatter3" ColumnName="CallLatter3" />
+          <ScalarProperty Name="CallLatter4" ColumnName="CallLatter4" />
+          <ScalarProperty Name="CallLatter5" ColumnName="CallLatter5" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

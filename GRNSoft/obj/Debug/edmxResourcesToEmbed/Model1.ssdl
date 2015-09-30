@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UNIRecruitmentModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="UNIRecruitmentModelStoreContainer">
+    <EntitySet Name="CandidateDetail" EntityType="UNIRecruitmentModel.Store.CandidateDetail" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CandidateDetail">
+    <Key>
+      <PropertyRef Name="SrNo" />
+    </Key>
+    <Property Name="SrNo" Type="bigint" Nullable="false" />
+    <Property Name="Link" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProcessedDate" Type="date" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="CurrentLocation" Type="nvarchar" MaxLength="100" />
+    <Property Name="PreferedLocation" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="MobileNo" Type="nvarchar" MaxLength="11" />
+    <Property Name="LandLineNo" Type="nvarchar" MaxLength="12" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Qualification" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AdditionalQualification" Type="nvarchar" MaxLength="100" />
+    <Property Name="Experience" Type="int" Nullable="false" />
+    <Property Name="ExpSlap" Type="nvarchar" MaxLength="50" />
+    <Property Name="JobTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CurrentIndustry" Type="nvarchar" MaxLength="200" />
+    <Property Name="PreferredIndustry" Type="nvarchar" MaxLength="200" />
+    <Property Name="NoticePeriod" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrentCTC" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExpectedCTC" Type="nvarchar" MaxLength="50" />
+    <Property Name="NoOfCalls" Type="int" Nullable="false" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="200" />
+    <Property Name="CVPath" Type="nvarchar(max)" />
+    <Property Name="Placed" Type="bit" Nullable="false" />
+    <Property Name="Registered" Type="bit" Nullable="false" />
+    <Property Name="MarritalStatus" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExecutiveName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CallLatter1" Type="nvarchar" MaxLength="50" />
+    <Property Name="CallLatter2" Type="nvarchar" MaxLength="50" />
+    <Property Name="CallLatter3" Type="nvarchar" MaxLength="50" />
+    <Property Name="CallLatter4" Type="nvarchar" MaxLength="50" />
+    <Property Name="CallLatter5" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+</Schema>

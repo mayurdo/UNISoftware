@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UniGRNDb">
+  <DataContextMoniker Name="/UniGRNDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="04c036ba-cd5e-4e10-b41f-444932d00fdf" absoluteBounds="0.75, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/UniGRNDbDataContext/GRNDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1bdf0296-f3e1-43ac-987a-acd57bcf57e4" absoluteBounds="0.76500000000000012, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d5c21ad9-95d1-4fa4-b406-d49a7a22f7af" absoluteBounds="3.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/UniGRNDbDataContext/GRNItemDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5bd68e0-2c53-43c7-b502-fabae8c46f37" absoluteBounds="3.5149999999999997, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.36620198567708); (3.5 : 2.36620198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/UniGRNDbDataContext/GRNDetail/GRNDetail_GRNItemDetail" />
+      <nodes>
+        <classShapeMoniker Id="04c036ba-cd5e-4e10-b41f-444932d00fdf" />
+        <classShapeMoniker Id="d5c21ad9-95d1-4fa4-b406-d49a7a22f7af" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

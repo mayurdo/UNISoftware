@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UNIRecruitmentModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="UNIRecruitmentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CandidateDetails" EntityType="UNIRecruitmentModel.CandidateDetail" />
+    <EntitySet Name="Mytestings" EntityType="UNIRecruitmentModel.Mytesting" />
+  </EntityContainer>
+  <EntityType Name="CandidateDetail">
+    <Key>
+      <PropertyRef Name="SrNo" />
+    </Key>
+    <Property Name="SrNo" Type="Int64" Nullable="false" />
+    <Property Name="Link" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ProcessedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="CurrentLocation" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="PreferedLocation" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="11" Unicode="true" FixedLength="false" />
+    <Property Name="LandLineNo" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Qualification" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="AdditionalQualification" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Experience" Type="Int32" Nullable="false" />
+    <Property Name="ExpSlap" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="JobTitle" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CurrentIndustry" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="PreferredIndustry" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="NoticePeriod" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CurrentCTC" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ExpectedCTC" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="NoOfCalls" Type="Int32" Nullable="false" />
+    <Property Name="Remarks" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="CVPath" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Placed" Type="Boolean" Nullable="false" />
+    <Property Name="Registered" Type="Boolean" Nullable="false" />
+    <Property Name="MarritalStatus" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ExecutiveName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CallLatter1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CallLatter2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CallLatter3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CallLatter4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CallLatter5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Mytesting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="Address" Nullable="false" />
+  </EntityType>
+</Schema>
