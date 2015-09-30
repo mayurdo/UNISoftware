@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UNIRecruitmentSoft</RootNamespace>
+    <AssemblyName>UNIRecruitmentSoft</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCompany.Designer.cs">
+      <DependentUpon>AddNewCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddQualification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddQualification.Designer.cs">
+      <DependentUpon>AddQualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Candidatefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Candidatefrm.Designer.cs">
+      <DependentUpon>Candidatefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateRDLSReportPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateRDLSReportPrint.Designer.cs">
+      <DependentUpon>CandidateRDLSReportPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateRecycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateRecycle.Designer.cs">
+      <DependentUpon>CandidateRecycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateReport.Designer.cs">
+      <DependentUpon>CandidateReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommanFuction.cs" />
+    <Compile Include="CompanyDetailsfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyDetailsfrm.Designer.cs">
+      <DependentUpon>CompanyDetailsfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteReasionfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteReasionfrm.Designer.cs">
+      <DependentUpon>DeleteReasionfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportFromExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportFromExcel.Designer.cs">
+      <DependentUpon>ImportFromExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendEmailfrm.Designer.cs">
+      <DependentUpon>SendEmailfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMSHistoryfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMSHistoryfrm.Designer.cs">
+      <DependentUpon>SMSHistoryfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor\AddNewVendorFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor\AddNewVendorFrm.Designer.cs">
+      <DependentUpon>AddNewVendorFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor\VendorDetailsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor\VendorDetailsFrm.Designer.cs">
+      <DependentUpon>VendorDetailsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IGridPagination.cs" />
+    <Compile Include="IUniTable.cs" />
+    <Compile Include="Loginfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginfrm.Designer.cs">
+      <DependentUpon>Loginfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecycleDeletedRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecycleDeletedRecord.Designer.cs">
+      <DependentUpon>RecycleDeletedRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportForm.cs" />
+    <Compile Include="UniDB.cs">
+      <DependentUpon>UniDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="UniEnums.cs" />
+    <Compile Include="UserMng\UserDetailFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMng\UserDetailFrm.Designer.cs">
+      <DependentUpon>UserDetailFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitDetailsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitDetailsFrm.Designer.cs">
+      <DependentUpon>VisitDetailsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitingCardFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitingCardFrm.Designer.cs">
+      <DependentUpon>VisitingCardFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewCompany.resx">
+      <DependentUpon>AddNewCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddQualification.resx">
+      <DependentUpon>AddQualification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Candidatefrm.resx">
+      <DependentUpon>Candidatefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateRDLCReport.rdlc" />
+    <EmbeddedResource Include="CandidateRDLSReportPrint.resx">
+      <DependentUpon>CandidateRDLSReportPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateRecycle.resx">
+      <DependentUpon>CandidateRecycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateReport.resx">
+      <DependentUpon>CandidateReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyDetailsfrm.resx">
+      <DependentUpon>CompanyDetailsfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteReasionfrm.resx">
+      <DependentUpon>DeleteReasionfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportFromExcel.resx">
+      <DependentUpon>ImportFromExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendEmailfrm.resx">
+      <DependentUpon>SendEmailfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMSHistoryfrm.resx">
+      <DependentUpon>SMSHistoryfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\AddNewVendorFrm.resx">
+      <DependentUpon>AddNewVendorFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\VendorDetailsFrm.resx">
+      <DependentUpon>VendorDetailsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginfrm.resx">
+      <DependentUpon>Loginfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecycleDeletedRecord.resx">
+      <DependentUpon>RecycleDeletedRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendSMSfrm.resx">
+      <DependentUpon>SendSMSfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMng\UserDetailFrm.resx">
+      <DependentUpon>UserDetailFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitDetailsFrm.resx">
+      <DependentUpon>VisitDetailsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitingCardFrm.resx">
+      <DependentUpon>VisitingCardFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="UniDB.dbml.layout">
+      <DependentUpon>UniDB.dbml</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="UniDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>UniDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SendSMSfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendSMSfrm.Designer.cs">
+      <DependentUpon>SendSMSfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UniDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UniDB.dbml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeRequirment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PopUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeRequirment1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PopUp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UNIBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewCandidate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewCondidate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_edit_undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewCV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send_email_user_letter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\CandidateDetail.datasource" />
+    <None Include="Resources\send_email_user_letter_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagram_v2_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recycle_bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_saveImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VisitingCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VisitingCard2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recycle_binIcone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excelIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CustomerRequirmentAndChanges.txt" />
+    <None Include="Resources\HomePage8.png" />
+    <None Include="Resources\HomePage6.png" />
+    <None Include="Resources\HomePage5.png" />
+    <None Include="Resources\HomePage4.png" />
+    <None Include="Resources\HomePage3.png" />
+    <None Include="Resources\HomePage2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

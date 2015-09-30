@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UNIRecruitment" Class="UniDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MAYUR-PC\EXPRESS;Initial Catalog=UNIRecruitment;User ID=sa" SettingsObjectName="UNIRecruitmentSoft.Properties.Settings" SettingsPropertyName="UNIRecruitmentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KeyValueDetail" Member="KeyValueDetails">
+    <Type Name="KeyValueDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KayName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ValueName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserDetail" Member="UserDetails">
+    <Type Name="UserDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EmailId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Modules" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CandidateDetail" Member="CandidateDetails">
+    <Type Name="CandidateDetail">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProcessedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CandidateCode" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentLocation" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PreferedLocation" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="LandLineNo" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Qualification" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="AdditionalQualification" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Experience" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExpSlap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentIndustry" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="PreferredIndustry" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="NoticePeriod" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrentCTC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ExpectedCTC" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="NoOfCalls" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CVPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Registered" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Placed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MarritalStatus" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CallLetter1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLetter2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLetter3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLetter4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLetter5" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VendorDetail" Member="VendorDetails">
+    <Type Name="VendorDetail">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorType" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="OfficeAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="FactoryAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ContactPerson" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNo" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Website" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Designation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusinessType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sector" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Expert" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EstablishedYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NoOfEmployees" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AnnualTurnover" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ProcessedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Profile1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Profile2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Networking" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerDetail" Member="CustomerDetails">
+    <Type Name="CustomerDetail">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyType" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="OfficeAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="FactoryAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ContactPerson" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNo" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Website" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BusinessType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sector" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Expert" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EstablishedYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NoOfEmployees" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AnnualTurnover" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ProcessedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Profile1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Profile2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Networking" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SMSHistory" Member="SMSHistories">
+    <Type Name="SMSHistory">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SMSText" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VisitDetail" Member="VisitDetails">
+    <Type Name="VisitDetail">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactPerson" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="VisitType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="VisitDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="VisitTime" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CommentRemark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmailHistory" Member="EmailHistories">
+    <Type Name="EmailHistory">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EmailIds" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Subject" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DeletedReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ReCalculateAge" Method="ReCalculateAge">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateBackUp" Method="CreateBackUp">
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

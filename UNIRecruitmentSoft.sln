@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIRecruitmentSoft", "UNIRecruitmentSoft\UNIRecruitmentSoft.csproj", "{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRNSoft", "GRNSoft\GRNSoft.csproj", "{E03CD5D5-6928-44C0-B3F8-F19C61D15DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIFreelancerDataBaseEntry", "UNIFreelancerDataBaseEntry\UNIFreelancerDataBaseEntry.csproj", "{67D1D8DB-EDD0-42F9-8B63-D0F234B2E1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIWebSiteReader", "UNIWebSiteReader\UNIWebSiteReader.csproj", "{1E9AAABA-C0C4-4CF4-ACF1-D5D1350D7837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIWebApiService", "UNIWebApiService\UNIWebApiService.csproj", "{2C494260-588C-4A82-AB6D-C1BA9DFDFD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIEntity", "UNIEntity\UNIEntity.csproj", "{D79AA473-ABC2-4779-ADC2-25A95AFF65EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIWebApiClient", "UNIWebApiClient\UNIWebApiClient.csproj", "{F341E793-7F1D-4E79-9F29-9415820C5E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5CD53D-0087-4AB1-B2AD-F94618AD3FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03CD5D5-6928-44C0-B3F8-F19C61D15DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03CD5D5-6928-44C0-B3F8-F19C61D15DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03CD5D5-6928-44C0-B3F8-F19C61D15DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03CD5D5-6928-44C0-B3F8-F19C61D15DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D1D8DB-EDD0-42F9-8B63-D0F234B2E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D1D8DB-EDD0-42F9-8B63-D0F234B2E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D1D8DB-EDD0-42F9-8B63-D0F234B2E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D1D8DB-EDD0-42F9-8B63-D0F234B2E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9AAABA-C0C4-4CF4-ACF1-D5D1350D7837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9AAABA-C0C4-4CF4-ACF1-D5D1350D7837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9AAABA-C0C4-4CF4-ACF1-D5D1350D7837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9AAABA-C0C4-4CF4-ACF1-D5D1350D7837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C494260-588C-4A82-AB6D-C1BA9DFDFD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C494260-588C-4A82-AB6D-C1BA9DFDFD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C494260-588C-4A82-AB6D-C1BA9DFDFD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C494260-588C-4A82-AB6D-C1BA9DFDFD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79AA473-ABC2-4779-ADC2-25A95AFF65EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79AA473-ABC2-4779-ADC2-25A95AFF65EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79AA473-ABC2-4779-ADC2-25A95AFF65EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79AA473-ABC2-4779-ADC2-25A95AFF65EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F341E793-7F1D-4E79-9F29-9415820C5E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F341E793-7F1D-4E79-9F29-9415820C5E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F341E793-7F1D-4E79-9F29-9415820C5E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F341E793-7F1D-4E79-9F29-9415820C5E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 11.5" name="UniDB">
+  <DataContextMoniker Name="/UniDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="87beb3a0-8185-4524-84ca-5caec2da1531" absoluteBounds="0.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/UniDBDataContext/KeyValueDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="388e4ce0-ac47-4227-9be6-eef5ca2aedeb" absoluteBounds="0.76500000000000057, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc3a6e39-9a13-4bde-9823-26290695297d" absoluteBounds="3.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/UniDBDataContext/UserDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d614ba21-266f-45cd-8f80-c08f837a0f5a" absoluteBounds="3.7649999999999997, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7394aa6-e90d-41b8-968c-70767be34e07" absoluteBounds="0.75, 3.125, 2, 8.1168440755208326">
+      <DataClassMoniker Name="/UniDBDataContext/CandidateDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="771573ba-1e19-42c2-a036-a79613e75d09" absoluteBounds="0.76500000000000012, 3.585, 1.9700000000000002, 7.556844075520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55ba609a-66cb-4e60-8cad-e091b962afd8" absoluteBounds="3.75, 3.75, 2, 6.0015283203124987">
+      <DataClassMoniker Name="/UniDBDataContext/VendorDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a471b631-d9fa-4c60-b837-17124345ee50" absoluteBounds="3.7649999999999997, 4.2100000000000009, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="24d97e76-49c3-446b-a12d-157e888dd5b0" absoluteBounds="6.75, 0.75, 2, 5.8092268880208309">
+      <DataClassMoniker Name="/UniDBDataContext/CustomerDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="768224d9-3d04-4770-9d86-4c3d53bf6af6" absoluteBounds="6.765, 1.2100000000000009, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c0a968be-dd2f-4135-b1fd-c40a01ed3ddd" absoluteBounds="6.75, 7.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/UniDBDataContext/SMSHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c410b98-0a5b-43c5-8456-fd07280b44a2" absoluteBounds="6.7650000000000006, 8.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8610182-9731-4ee7-a894-24f6bdcf64f4" absoluteBounds="9.75, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/UniDBDataContext/VisitDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b8ff60a-8e40-4719-98e0-b84a07f73d36" absoluteBounds="9.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe13647b-9def-41d8-aee9-6c9c5e584f92" absoluteBounds="9.75, 4.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/UniDBDataContext/EmailHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ee1c43e-3531-49fb-a7da-5303c8e27692" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
