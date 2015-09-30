@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="UNIRecruitment" Class="UniDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MAYUR-PC\SQL2008_R2;Initial Catalog=UNIRecruitment;User ID=sa" SettingsObjectName="UNIRecruitmentSoft.Properties.Settings" SettingsPropertyName="UNIRecruitmentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CandidateDetail" Member="CandidateDetails">
+    <Type Name="CandidateDetail">
+      <Column Name="SrNo" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProcessedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentLocation" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PreferedLocation" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="LandLineNo" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Qualification" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="AdditionalQualification" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Experience" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExpSlap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentIndustry" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="PreferredIndustry" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="NoticePeriod" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrentCTC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ExpectedCTC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NoOfCalls" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CVPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Registered" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Placed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MarritalStatus" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExecutiveName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CallLatter1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLatter2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLatter3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLatter4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CallLatter5" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ReCalculateAge" Method="ReCalculateAge">
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
