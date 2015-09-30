@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/UniWcfService.Candidate" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/UniWcfService.Candidate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8080/?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:8080/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/UniWcfService" />
+  <xs:complexType name="CandidateDetailSearchRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/UniWcfService" base="q1:CandidateDetail">
+        <xs:sequence>
+          <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AgeList" nillable="true" type="q2:ArrayOflong" />
+          <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ExpMonthList" nillable="true" type="q3:ArrayOflong" />
+          <xs:element minOccurs="0" name="FromProcessedDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PageNo" type="xs:int" />
+          <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+          <xs:element minOccurs="0" name="SearchByProcessedDate" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ToProcessedDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CandidateDetailSearchRequest" nillable="true" type="tns:CandidateDetailSearchRequest" />
+  <xs:complexType name="ArrayOfCandidateDetailDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CandidateDetailDto" nillable="true" type="tns:CandidateDetailDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCandidateDetailDto" nillable="true" type="tns:ArrayOfCandidateDetailDto" />
+  <xs:complexType name="CandidateDetailDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SrNo" type="xs:long" />
+      <xs:element minOccurs="0" name="Link" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProcessedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CandidateCode" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="MarritalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferedLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LandLineNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Qualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AdditionalQualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Experience" type="xs:int" />
+      <xs:element minOccurs="0" name="ExpSlap" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JobTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentIndustry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredIndustry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoticePeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentCTC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpectedCTC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CandidateDetailDto" nillable="true" type="tns:CandidateDetailDto" />
+</xs:schema>

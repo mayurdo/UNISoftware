@@ -1,0 +1,84 @@
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe.config
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.pdb
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\ResolveAssemblyReference.cache
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Loginfrm.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Properties.Resources.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.csproj.GenerateResource.Cache
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.exe
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.pdb
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Candidatefrm.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.HomePage.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.RadForm1.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateReport.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.TestNewCandidate.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\office.dll
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\office.xml
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.AddQualification.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.SendSMSfrm.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateReportPrintfrm.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRDLSReportPrint.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.cache
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.compiled
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRecycle.resources
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\.NET Project\UNI\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe.config
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.exe
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.pdb
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.AddQualification.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Candidatefrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRDLSReportPrint.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRecycle.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateReport.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateReportPrintfrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.HomePage.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Loginfrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Properties.Resources.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.SendSMSfrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.csproj.GenerateResource.Cache
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.cache
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.compiled
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.pdb
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.UserMng.UserDetailFrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CompanyDetailsfrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.AddNewCompany.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.VisitingCardFrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.VisitDetailsFrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.RecycleDeletedRecord.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Vendor.AddNewVendorFrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Vendor.VendorDetailsFrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.SMSHistoryfrm.resources
+E:\Mayur\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.csprojResolveAssemblyReference.cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe.config
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.csprojResolveAssemblyReference.cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.AddNewCompany.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.AddQualification.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Candidatefrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRDLSReportPrint.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateRecycle.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CandidateReport.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.CompanyDetailsfrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.SMSHistoryfrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Vendor.AddNewVendorFrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Vendor.VendorDetailsFrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.HomePage.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Loginfrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.Properties.Resources.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.RecycleDeletedRecord.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.SendSMSfrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.UserMng.UserDetailFrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.VisitDetailsFrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.VisitingCardFrm.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.csproj.GenerateResource.Cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\RdlCompile.compiled
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\bin\Debug\UNIRecruitmentSoft.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIRecruitmentSoft\obj\Debug\UNIRecruitmentSoft.ImportFromExcel.resources

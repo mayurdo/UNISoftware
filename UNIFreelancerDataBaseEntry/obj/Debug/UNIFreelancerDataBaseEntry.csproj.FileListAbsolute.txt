@@ -1,0 +1,10 @@
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.Form1.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.Properties.Resources.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.csproj.GenerateResource.Cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\bin\Debug\UNIFreelancerDataBaseEntry.exe.config
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\bin\Debug\UNIFreelancerDataBaseEntry.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\bin\Debug\UNIFreelancerDataBaseEntry.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.CandidateReport.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIFreelancerDataBaseEntry\obj\Debug\UNIFreelancerDataBaseEntry.csprojResolveAssemblyReference.cache

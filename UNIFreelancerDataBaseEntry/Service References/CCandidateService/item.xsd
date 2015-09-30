@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/UniWcfService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/UniWcfService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8080/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/UniWcfService.Candidate" />
+  <xs:complexType name="CandidateDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdditionalQualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="CVPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CandidateCode" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="CurrentCTC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentIndustry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DeletedReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExecutiveName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpSlap" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpectedCTC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Experience" type="xs:int" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDeleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="JobTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LandLineNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Link" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MarritalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDateTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfCalls" type="xs:int" />
+      <xs:element minOccurs="0" name="NoticePeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferedLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferredIndustry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProcessedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Qualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SrNo" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CandidateDetail" nillable="true" type="tns:CandidateDetail" />
+  <xs:complexType name="CandidateDetailResponse">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/UniWcfService.Candidate" minOccurs="0" name="PageData" nillable="true" type="q1:ArrayOfCandidateDetailDto" />
+      <xs:element minOccurs="0" name="TotalItem" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CandidateDetailResponse" nillable="true" type="tns:CandidateDetailResponse" />
+</xs:schema>
