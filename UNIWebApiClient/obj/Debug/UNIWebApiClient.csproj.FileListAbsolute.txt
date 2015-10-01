@@ -1,0 +1,17 @@
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.csprojResolveAssemblyReference.cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.Form1.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.Properties.Resources.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.csproj.GenerateResource.Cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\UNIWebApiClient.exe.config
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\UNIWebApiClient.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\UNIWebApiClient.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\Newtonsoft.Json.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\UNIEntity.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\EntityFramework.dll
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\UNIEntity.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\Newtonsoft.Json.xml
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\bin\Debug\EntityFramework.xml
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.CandidateReport.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebApiClient\obj\Debug\UNIWebApiClient.Candidatefrm.resources
