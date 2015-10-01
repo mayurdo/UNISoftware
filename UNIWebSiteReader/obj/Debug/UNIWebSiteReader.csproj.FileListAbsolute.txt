@@ -1,0 +1,8 @@
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\bin\Debug\UNIWebSiteReader.exe.config
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\bin\Debug\UNIWebSiteReader.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\bin\Debug\UNIWebSiteReader.pdb
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\obj\Debug\UNIWebSiteReader.Form1.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\obj\Debug\UNIWebSiteReader.Properties.Resources.resources
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\obj\Debug\UNIWebSiteReader.csproj.GenerateResource.Cache
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\obj\Debug\UNIWebSiteReader.exe
+E:\Mayur Data\Mayur_Data\UNIRecruitmentSoft\UNIWebSiteReader\obj\Debug\UNIWebSiteReader.pdb
